@@ -10,7 +10,7 @@ Blockchain project for car supply chain
 * **Wholesaler**: An entity that is buying products
 
 ### Business
-* **Wholesaler** sends a request for buy the products. **Ex: Model=Prime, Color=Green, Number=3**.
+* **Wholesaler** sends a request for buying the products. **Ex: Model=Prime, Color=Green, Number=3**.
 * **Manufacturer** accepts the request and manufactures the products. After completed, they send a request to **Inspector** for inspection.
 * **Inspector** inspects the products and confirm if they are ok for delievering.
 * **Manufacturer** receives confirmation from **Inspector** that all the products are ok to deliver. Then they send a request to **Shipper** for shipping the products to **Wholesaler**.
